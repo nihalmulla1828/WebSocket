@@ -12,7 +12,7 @@ class Program
 
         // Establish WebSocket connection to the server
         var client = new ClientWebSocket();
-        await client.ConnectAsync(new Uri("wss://3db0-103-93-199-59.ngrok-free.app"), CancellationToken.None);  // Replace with the server's public IP
+        await client.ConnectAsync(new Uri("wss://ca2e-2401-4900-7c6d-34bf-60fe-1b06-3718-eea3.ngrok-free.app"), CancellationToken.None);  // Replace with the server's public IP
 
         Console.WriteLine("Connected to the WebSocket server.");
 
